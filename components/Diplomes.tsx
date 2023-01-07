@@ -41,7 +41,7 @@ function Diplomes({ projects }: Props) {
                         />
                         <div className='space-y-5 px-0 md:px-10 max-w-6xl'>
                             <h4 className='text-xl md:text-4xl font-semibold text-center'>
-                                <span className='underline decoration-[#F7AB0A]/50'>
+                                <span key={i} className='underline decoration-[#F7AB0A]/50'>
                                     Étape {i + 1} sur {projects.length}:
                                 </span>{" "}
                                 {project?.title}
