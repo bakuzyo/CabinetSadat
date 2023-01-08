@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 // import doctolib from '../public/doctolib.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHeartbeat } from '@fortawesome/free-solid-svg-icons';
+// import { faHeartbeat } from '@fortawesome/free-solid-svg-icons';
 import { faFileMedical } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
 

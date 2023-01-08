@@ -8,7 +8,6 @@ type Props = {
 }
 
 function Diplomes({ projects }: Props) {
-    // const diplomes = [1, 2, 3, 4, 5];
     return (
         <motion.div
             initial={{ opacity: 0 }}
