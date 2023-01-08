@@ -1,4 +1,4 @@
-import { GetStaticProps, NextPage } from 'next'
+import type { GetStaticProps } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
 import About from '../components/About'
@@ -90,5 +90,5 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
       socials,
     },
     revalidate: 10,
-  }
-}
+  };
+};
